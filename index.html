@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Homework 4</title>
+      <link rel="stylesheet" href="style.css">
+      <script src="cal.js" > </script>
+    </head>
+    <body>
+        <div id="main" >
+            <h1 style="color: rgb(95, 17, 33); text-align:center;  font-family: Georgia, 'Times New Roman', Times, serif;">Calculator</h1>
+            <form name="form" class="">
+                <input class= "textview" name = "textview">
+            </form>
+            
+        <table>
+            <tr>
+                <td>
+                    <input class="btn"type="button" onclick ="clean()" value="C" >
+                </td>
+                <td>
+                    <input  class="btn"type="button" onclick="back()" value="<">
+                </td>
+                <td>
+                    <input class="btn"type="button" value="/" onclick="view('/')">
+                </td>
+                <td>
+                    <input class="btn" type="button" value="x" onclick="view('*')">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input class="btn" type="button" onclick="view(1)" value="1">
+                </td>
+                <td>
+                    <input class="btn" type="button" onclick="view(2)" value="2">
+                </td>
+                <td>
+                    <input class="btn" type="button" onclick="view(3)" value="3">
+                </td>
+                <td>
+                    <input class="btn" type="button" value="+"  onclick="view('+')">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input class="btn" type="button" onclick="view(4)" value="4">
+                </td>
+                <td>
+                    <input class="btn" type="button"  onclick="view(5)" value="5">
+                </td>
+                <td>
+                    <input class="btn" type="button" onclick="view(6)" value="6">
+                </td>
+                <td>
+                    <input class="btn" type="button" value="-"  onclick="view('-')">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input class="btn" type="button" onclick="view(7)" value="7">
+                </td>
+                <td>
+                    <input class="btn" type="button"onclick="view(8)"  value="8">
+                </td>
+                <td>
+                    <input  class="btn" type="button" onclick="view(9)" value="9">
+                </td>
+                <td rowspan = 5>
+                    <input id="eql" type="button"  value="=" onclick="equal()">
+                </td>
+            </tr>
+            <tr>
+                <td colspan = 2>
+                    <input id="btn0" type="button" onclick="view(0)" value="0">
+                </td>
+                <td>
+                    <input class="btn" type="button"onclick="view('.')"  value=".">
+                </td>
+  
+            </tr>
+        </table>
+    </div>
+    </body>
+</html>

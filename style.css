@@ -1,0 +1,48 @@
+body{
+    background-image: url(Deep\ Space.jpg);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#main{
+    position:absolute;
+    top: 10%;
+    left: 40%;
+}
+.textview{
+    width: 215px;
+    margin: 5px;
+    font-size: 25px;
+}
+.btn{
+ height: 50px;
+ width: 50px;
+ margin: 2px;
+ cursor: pointer;
+color:white;
+font-size: larger;
+font-weight: 400;
+background-color: rgb(204, 115, 13);
+
+}
+
+#main{
+    width: 230px;
+    background-color: rgba(214, 197, 197, 0.356);
+}
+#eql{
+    height: 110px;
+    width: 54px;
+    font-size: xx-large;
+    
+}
+#btn0{
+    width:109px;
+    height: 50px;
+    font-weight: 400;
+    font-size: larger;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.637);
+}
